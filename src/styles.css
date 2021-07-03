@@ -1,0 +1,75 @@
+a {
+  text-decoration: none;
+  color: #6f6f6f;
+}
+a :hover {
+  cursor: pointer;
+  text-shadow: 2px 2px;
+}
+ul {
+  margin: 0 0 10px;
+  padding: 0;
+  list-style: none;
+}
+.weather-app {
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  color: #6f6f6f;
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 30px auto;
+  max-width: 800px;
+  padding: 25px;
+}
+.search-form {
+  margin-bottom: 25px;
+}
+.search :hover {
+  background-color: #d0d3d9;
+  border: none;
+}
+.search-input {
+  text-align: left;
+}
+.city {
+  margin: 45px 0 0;
+}
+.current-weather {
+  text-align: center;
+}
+.weather-specifics {
+  margin: 45px 0 0;
+  position: relative;
+  left: 100px;
+}
+.weather-icon {
+  width: 75px;
+  margin: 10px auto;
+}
+.current-weather {
+  text-align: center;
+}
+.current-icon {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+}
+.current-temperature {
+  font-size: 30px;
+  line-height: 2;
+  margin: 0 auto;
+}
+.day-description {
+  font-size: 11px;
+  padding: 0 2px;
+  text-align: center;
+}
+.day-temperature {
+  font-size: 20px;
+  margin: 15px 0 10px;
+  text-align: center;
+}
+.week-day {
+  font-size: 12px;
+  padding: 15px 0 0 0;
+  text-align: center;
+}
